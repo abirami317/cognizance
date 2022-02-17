@@ -1,0 +1,10 @@
+The Fibonacci sequence is defined by , for all , when and .
+ In other words, to get the next term in the sequence, add the two previous terms. The notation that we will use to represent the Fibonacci sequence is as follows:
+(Nth Fibonacci Number denoted as F(N), F(0)=0, F(1)=1, F(2)=1, F(3)=2,…).
+1.Start.
+2.Declare variables i, a,b , show.
+3.Initialize the variables, a=0, b=1, and show =0.
+4.Enter the number of terms of Fibonacci series to be printed.
+5.Print First two terms of series.
+6.Use loop for the following steps. -> show=a+b. -> a=b. -> b=show. -> increase value of i each time by 1. ...
+7.End.
