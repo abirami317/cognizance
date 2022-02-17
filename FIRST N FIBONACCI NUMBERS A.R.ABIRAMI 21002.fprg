@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="aksha"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-23 04:30:55 PM"/>
+        <attribute name="created" value="YWtzaGE7TEFQVE9QLVNIU0VWN1ZUOzIwMjEtMTEtMjM7MDQ6MjQ6NTUgUE07MjkyMw=="/>
+        <attribute name="edited" value="YWtzaGE7TEFQVE9QLVNIU0VWN1ZUOzIwMjEtMTEtMjM7MDQ6MzA6NTUgUE07MTszMDI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, n, sum" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="sum" expression="0"/>
+            <output expression="&quot;enter the number to be printed&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <assign variable="c" expression="3"/>
+            <while expression="c&lt;=n">
+                <assign variable="sum" expression="a+b"/>
+                <assign variable="a" expression="b"/>
+                <assign variable="b" expression="sum"/>
+                <assign variable="c" expression="c+1"/>
+                <output expression="sum" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
